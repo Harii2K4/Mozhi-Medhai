@@ -1,0 +1,63 @@
+/* style.css */
+body {
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+.title {
+    color: #1E88E5;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section-header {
+    color: #1E88E5;
+    border-bottom: 2px solid #1E88E5;
+    padding-bottom: 10px;
+}
+
+.info-box, .success-box {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.info-box {
+    background-color: #E3F2FD;
+    border: 1px solid #1E88E5;
+}
+
+.success-box {
+    background-color: #E8F5E9;
+    border: 1px solid #4CAF50;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Style for Streamlit buttons */
+.stButton > button {
+    width: 100%;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1E88E5;
+    border: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1565C0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
