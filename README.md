@@ -1,15 +1,12 @@
-# Mozhi Medhai - Online Multi-Language Chat Room
+# Mozhi Medhai - Online Multi-Language Translator
 
-Mozhi Medhai is a real-time online chatroom application where users can text each other in different dialects and languages. The app supports automatic language detection and translation, with specific support for Tamil and English. Built using modern web technologies and cloud APIs, Mozhi Medhai aims to bridge the gap in language barriers during online communication.
+Mozhi Medhai is a real-time online translator application using which users can communicate with each other in different dialects and languages. The app supports automatic language detection and translation, with specific support for Tamil and English. Built using modern web technologies and cloud APIs, Mozhi Medhai aims to bridge the gap in language barriers during communication.
 
 ## Features
 
-- **Real-Time Messaging**: Chat with other users in real-time.
 - **Automatic Language Detection**: Identify the input language using Google Language Detection API.
 - **Language Translation**: Translate text using Microsoft Azure Cognitive Services Translation API.
-- **User Authentication**: Secure authentication and user management using Clerk.
 - **TypeScript and React**: Built with a modern frontend stack for seamless user experience.
-- **Database Integration**: Persistent storage using Convex.
 - **Styling**: Tailored with TailwindCSS and ShadCN for responsive and attractive UI design.
 
 ---
@@ -83,7 +80,6 @@ Ensure you have the following installed:
    AZURE_TRANSLATION_KEY=your_azure_key
    AZURE_TRANSLATION_ENDPOINT=your_azure_endpoint
    GOOGLE_API_KEY=your_google_key
-   CLERK_FRONTEND_API=your_clerk_api
    ```
 
 ---
